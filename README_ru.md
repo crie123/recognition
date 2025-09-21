@@ -33,3 +33,4 @@ python detect_kyrgyz_plates.py --source images/ --weights yolov8n.pt --out runs/
 Примечания
 - Репозиторий содержит утилитные скрипты, а не готовое приложение. Просмотрите скрипты и настройте параметры под свою среду.
 - Большие файлы и результаты прогонов указаны в .gitignore.
+- Finetuned модель доступна по ссылке: https://huggingface.co/crie123/yolov3s-finetuned-kyrgyz-plates
