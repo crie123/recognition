@@ -1,0 +1,50 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+env.bak/
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# Data, archives and datasets
+datasets/
+*.zip
+*.tar.gz
+*.tar
+*.tgz
+
+# Model weights and outputs
+*.pt
+*.onnx
+weights/
+runs/
+output_clips/
+
+# ffmpeg builds and binary folders
+ffmpeg-*/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs and temporary files
+*.log
+*.tmp
+*.cache
+
+# macOS / Windows files
+.DS_Store
+Thumbs.db
+
+# Misc
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Allow adding small dataset files explicitly
+!datasets/*.txt
